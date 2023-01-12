@@ -448,6 +448,7 @@ int main(int argc, char **argv)
         free(system);
         free(selected);
         fclose(output);
+        return 1;
     }
 
     // write header for the output file
